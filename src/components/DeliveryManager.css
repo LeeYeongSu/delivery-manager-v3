@@ -1,0 +1,40 @@
+.delivery-container {
+  max-width: 100%;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.edit-form {
+  background: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.list-wrapper {
+  overflow-x: auto;
+  max-height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.responsive-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.selected {
+  background-color: #bde4ff !important;
+}
